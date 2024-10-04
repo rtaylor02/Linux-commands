@@ -16,8 +16,7 @@ find ./GFG -iname '*sample*txt'
 ```
 find 2022 -type f -iname '*belly*'
 ```
-> Find a file by the name (case insensitive) containing the word 'belly' inside folder 2022
-> Use *-type d* for directory
+> Find a file by the name (case insensitive) containing the word 'belly' inside folder 2022. Use *-type d* for directory
 
 ## Grep
 ```
