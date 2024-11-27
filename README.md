@@ -81,7 +81,7 @@ Rob   8   Red
 ```
 sort -k2 -n simple.txt
 ```
-> sort column 2 (-k2) for numerical sorting (-n). Default k = 1, i.e. first column.
+> sort column 2 (-k2) for numerical sorting (-n). Default k = 1, i.e. first column.  
 Example:
 Name  Id  Team  
 Barry 3   Blue  
