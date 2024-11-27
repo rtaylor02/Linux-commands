@@ -64,8 +64,8 @@ sed s/Orange/Red/ simpletext.txt
 Sort data/file.
 ```
 sort simple.txt
-```
-> sort simple.txt
+```  
+> sort simple.txt  
 Example:  
 Name  Id  Team  
 Barry 3   Blue  
