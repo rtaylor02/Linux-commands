@@ -66,34 +66,34 @@ Sort data/file.
 sort simple.txt
 ```
 > sort simple.txt
-Example:
-Name  Id  Team
-Barry 3   Blue
-Gwen  12  Orange
-Rob   8   Red
+Example:  
+Name  Id  Team  
+Barry 3   Blue  
+Gwen  12  Orange  
+Rob   8   Red  
 
-will become:
+will become:  
 
-Barry 3   Blu
-Gwen  12  Orange
-Name  Id  Team
-Rob   8   Red
+Barry 3   Blu  
+Gwen  12  Orange  
+Name  Id  Team  
+Rob   8   Red  
 ```
 sort -k2 -n simple.txt
 ```
 > sort column 2 (-k2) for numerical sorting (-n). Default k = 1, i.e. first column.
 Example:
-Name  Id  Team
-Barry 3   Blue
-Gwen  12  Orange
-Rob   8   Red
+Name  Id  Team  
+Barry 3   Blue  
+Gwen  12  Orange  
+Rob   8   Red  
 
-will become (with 2nd column sorted - number goes first):
+will become (with 2nd column sorted - number goes first):  
 
-Barry 3   Blue
-Rob   8   Red
-Gwen  12  Orange
-Name  Id  Team
+Barry 3   Blue  
+Rob   8   Red  
+Gwen  12  Orange  
+Name  Id  Team  
 
 ## rev
 Print text in reverse order.
